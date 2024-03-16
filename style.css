@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    /* position: absolute; */
+    background-color: #121212;
+    width: 434px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 114vh;
+    /* transition: transform 0.5s ease-out; */
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar li a:hover{
+    text-decoration: underline;
+    color: #2D9596;
+}
+
+.main{
+    /* background-color: white; */
+    background-color: black;
+    width: 125vw;
+}
+
+.container{
+    /* height: 114vh; */
+    display: flex;
+}
+
+
+.infoContainer{
+    /* background-color: rgba(255, 192, 203, 0.753); */
+    /* background-color: black; */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Source Code Pro", monospace;
+}
+.hlw{
+    margin: -16px;
+    color: #2D9596;
+    padding-left: 30px;
+}
+
+.hello{
+    margin: 12px;
+    font-size: 40px;
+}
+
+.name{
+    margin: -9px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 26px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+.about{
+    margin: 12px;
+    font-size: 25px;
+    color: #2D9596;
+}
+.buttons{
+    margin: 12px;
+    margin-top: 34px;
+}
+
+.btn{
+    margin: 12px;
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: #2D9596;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #2D9596;
+}
+
+.devPic img{
+    background-color: #2D9596;
+    height: 58vh;
+    border-radius: 100%;
+}
+
+.moreabout{
+    margin: 12px;
+    /* font-size: 29px; */
+    padding-top: 10px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.contactform{
+    /* position: absolute; */
+    margin-left: 20px;
+    color: white;
+     padding: 0 34px; 
+    padding-top: 90px; 
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.contactform h1{
+    font-family: "Source Code Pro", monospace;
+    padding: 12px 0;
+    color: #2D9596;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    width: 26vw;
+    border-radius:5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+
+}
+
+#emailHelp{
+    font-size: 11px;
+    color: red;
+    margin: 0 5px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+.btn-sm{
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;  
+}
+
+
+.intro h2{
+    margin: 22px;
+    padding-top: 50px;
+    color: #2D9596;
+    font-family: "Source Code Pro", monospace;
+    margin: 12px;
+}
+h2{
+    margin: 22px;
+    padding-top: px;
+    color: #2D9596;
+    font-family: "Source Code Pro", monospace;
+    margin: 12px;
+}
+
+.intro p{
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 12px;
+}
+
+.skill1{
+    cursor: pointer;
+    font-weight: bold;
+    width: 1000px;
+    height: 16px;
+    background-color: #2D9596;
+}
+
+.skill1:hover{
+    background-color: white;
+}
+
+.skill2{
+    cursor: pointer;
+    font-weight: bold;
+    width: 950px;
+    height: 16px;
+    background-color: #2D9596;   
+}
+.skill2:hover{
+    background-color: white;
+}
+
+.skill3{
+    cursor: pointer;
+    font-weight: bold;
+    width: 850px;
+    height: 16px;
+    background-color: #2D9596;
+}
+.skill3:hover{
+    background-color: white;
+}
+
+.skill4{
+    cursor: pointer;
+    font-weight: bold;
+    width: 1090px;
+    height: 16px;
+    background-color: #2D9596;
+}
+.skill4:hover{
+    background-color: white;
+}
+
+.skill5{
+    cursor: pointer;
+    font-weight: bold;
+    width: 1010px;
+    height: 16px;
+    background-color: #2D9596;
+}
+.skill5:hover{
+    background-color: white;
+}
+
+.skill6{
+    cursor: pointer;
+    font-weight: bold;
+    width: 985px;
+    height: 16px;
+    background-color: #2D9596;
+}
+.skill6:hover{
+    background-color: white;
+}
+
+.skill7{
+    cursor: pointer;
+    font-weight: bold;
+    width: 830px;
+    height: 16px;
+    background-color: #2D9596;
+}
+.skill7:hover{
+    background-color: white;
+}
+
+.skill8{
+    cursor: pointer;
+    font-weight: bold;
+    width: 900px;
+    height: 16px;
+    background-color: #2D9596;
+}
+.skill8:hover{
+    background-color: white;
+}
+
+.skill9{
+    cursor: pointer;
+    font-weight: bold;
+    width: 950px;
+    height: 16px;
+    background-color: #2D9596;
+}
+.skill9:hover{
+    background-color: white;
+}
+
+.skill0{
+    cursor: pointer;
+    font-weight: bold;
+    width: 1100px;
+    height: 16px;
+    background-color: #2D9596;
+}
+.skill10:hover{
+    background-color: white;
+}
+
+.sidebarGo{
+    
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 5px;
+}
+.cross{
+    /* padding-left: 210px; */
+    margin-left: 235px;
+    margin-top: 5px;
+}
+
+/* @media (max-width:1615px) {
+    *{
+         background-color: red;
+    }
+    .devPic{
+        display: none;
+    } 
+    
+} */
+
+.contactform span i{
+    /* font-size: 30px; */
+    padding: 5px;
+    padding-top: 20px;
+}
+.contactform span i:hover{
+    font-size: 20px;
+}
+/*-------------------------------------my work-------------------------------------------*/
+h2{
+    font-family: 'Fira Sans', sans-serif;
+}
+#portfolio{
+    padding: 25px 0;
+}
+
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.work img{
+    cursor: pointer;
+    /* height: 100%; */
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.layer{
+    width: 100%;
+    height:0;
+    /* background: linear-gradient(rgba (0,0,0,0.6), #ff004f); */
+    background: linear-gradient(rgba(0,0,0,0.6),#2D9596);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:0 ;
+    text-align: center;
+    transition: height 0.5s;
+    color: white;
+    font-weight:bold ;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.heading{
+    font-family: "Source Code Pro", monospace;
+}
+
+.layer h3{
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.layer a{
+    margin-top: 20px;
+    color: #2D9596;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.work:hover img{
+    transform: scale(1.1);
+}
+
+.work:hover .layer{
+    height: 100%;
+}
+
+.layer a{
+    background-color: black;
+}
+
+.layer a:hover{
+    background-color: #121212bd;
+    color: black;
+}
